@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 class="title-header">Tic-tac-toe</h1>
+      </header>
+      <main>
+        <div class="main">
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+          <div class="box"></div>
+        </div>
+
+        <div class="overlay"></div>
+        <div class="wrapper-winner">
+          <div class="winner">
+            <h2 class="title-winner">Winner</h2>
+            <div class="result"></div>
+            <div class="friend"></div>
+            <button class="btn">Play again?</button>
+            <div class="score"></div>
+          </div>
+        </div> 
+
+        <div class="btns">
+          <div class="wrap-btns">
+            <button class="btn-reset">reset</button>
+            <button class="btn-volume"></button>
+            <button class="btn-records">records</button>
+          </div>
+        </div>
+
+        <div class="overlay2"></div>
+        <div class="wrapper-records">
+          <div class="modal-window">
+            <div class="btn-close"></div>
+            <h2 class="score-records">score</h2>
+            <div class="players">
+              <span class="cross2"></span>
+              <span class="circle2"></span>
+            </div>
+
+            <div class="finish-result"></div>
+            
+          </div>
+        </div>
+
+      </main>
+
+      <footer>
+        <div class="container-footer">
+          <div class="git-hub">
+            <a href="https://github.com/DimaTeniuta">
+              <img class="img-git-hub" src="./assets/svg/Github.svg" alt="gitHub">
+            </a>
+          </div>
+          <div class="year">
+            <span class="footer-text">© 2022</span>
+          </div>
+          <div class="school">
+            <a href="https://rs.school/js-stage0/">
+              <img class="img-course" src="https://rs.school/images/rs_school_js.svg" alt="img-course" width="150"/>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
